@@ -111,6 +111,11 @@ form, label{
     float: right;
 }
 
+#bordernav{
+    border-right: solid 2px #777777;
+    border-left: solid 2px #777777;
+}
+
 nav, li, a {
     margin: 4px;
     padding: 4px;
@@ -197,6 +202,46 @@ button:hover{
     color: white;
   }
 
+@media screen and (max-width: 980px){
+    .gallery img {
+        margin: 0;
+        height: 180px;
+        width: 240px;
+    }
+    
+    .imgholder {
+        position: relative;
+        margin: 20px;
+        float: left;
+    }
+    
+    .txtbox{
+        position: absolute;  
+        margin: auto;
+        width: 240px;
+        bottom: 20px;
+        background-color: #4aaaa5;
+        color: white;
+      }
+
+    .content{
+        width: 66.67vw;
+    }
+
+    .navbar{
+        text-align: center;
+    }
+
+  }
+
+  
+@media screen and (max-width: 768px){
+    .content{
+        width: 85vw;
+    }
+    
+}
+
 @media screen and (max-width: 640px){
     header {
         position: static;
@@ -247,12 +292,8 @@ button:hover{
 
   }
 
-@media screen and (max-width: 768px){
-  }
 
 
-@media screen and (max-width: 980px){
-    
 
-  }
+
 
