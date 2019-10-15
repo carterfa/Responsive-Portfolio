@@ -260,6 +260,10 @@ button:hover{
         position: static;
     }
 
+    li {
+        display: inline;
+    }
+
     p {
         padding: 1em;
     }
@@ -271,25 +275,33 @@ button:hover{
         margin-left: auto;
     }
 
-    .gallery img {
-        margin: 0;
-        height: 120px;
-        width: 160px;
-    }
-
     #formbox{
         width: 100%;
     }
 
+    .gallery{
+        text-align: center;
+    }
+  
+    .imgholder{
+        float: none;
+        display: inline-block;
+    }
+
+    .gallery img {
+        margin: 0;
+        height: 240px;
+        width: 320px;
+    }
+    
     .txtbox{
         position: absolute;  
         margin: auto;
-        width: 160px;
+        width: 320px;
         bottom: 20px;
         background-color: #4aaaa5;
         color: white;
       }
-
   }
 
 
